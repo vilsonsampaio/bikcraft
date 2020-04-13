@@ -1,0 +1,38 @@
+/* SOBRE */
+
+.page-sobre {
+    background: url("../img/sobre/bg-sobre.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.sobre .subtitulo {
+    text-align: left;
+}
+
+.sobre .subtitulo:after {
+    margin: 5px 0 20px;
+}
+
+.sobre p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 1em;
+    padding-right: 70px;
+}
+
+.sobre ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.sobre .img {
+    padding-top: 20px;
+}
+
+
+/* qualidade */
+
+.sobre-qualidade {
+    padding-bottom: 60px;
+}
