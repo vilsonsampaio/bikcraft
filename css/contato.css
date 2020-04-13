@@ -1,0 +1,105 @@
+/* INTRO */
+
+.page-contato {
+    background: url("../img/contato/bg-contato.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.item {
+    padding-top: 60px;
+}
+
+
+/* ORCAMENTO */
+
+.contato .container {
+    padding: 60px 0;
+}
+
+#form-contato {
+    padding-right: 60px;
+}
+
+#form-contato label {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+
+#form-contato input,
+#form-contato textarea {
+    display: block;
+    width: 100%;
+    border: 4px solid #fec63e;
+    background: none;
+    padding: 5px;
+    outline: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+}
+
+#form-contato textarea {
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+#form-contato button {
+    background: none;
+    cursor: pointer;
+    padding: 10px 40px;
+}
+
+#form-contato button:hover {
+    border-color: #000;
+    color: #000;
+}
+
+.contato-dados h3 {
+    color: #fec63e;
+    margin-bottom: 10px;
+}
+
+.contato-dados h3:after {
+    display: none;
+    visibility: hidden;
+    /* Retirando o tracinho */
+}
+
+.contato-dados ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contato-dados ul.dados li {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.contato-dados ul.dados li:nth-of-type(even) {
+    /* Diferente do nth-of-child esse não leva em conta elementos filhos, podendo ser usado em qualquer tag, não necessitando de uma ul*/
+    margin-bottom: 40px;
+}
+
+.contato-dados ul.redes li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contato-dados ul.redes li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 10px;
+}
+
+.contato-dados ul.redes li a:hover {
+    border-color: #000;
+}
+
+
+/* MAPA */
+
+.mapa {
+    padding-bottom: 60px;
+}
