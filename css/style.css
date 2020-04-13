@@ -205,6 +205,10 @@ h3:after {
     margin: 5px auto 10px;
 }
 
+.intro-page p {
+    text-transform: lowercase;
+}
+
 
 /* Produtos */
 
