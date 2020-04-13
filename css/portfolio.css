@@ -1,0 +1,39 @@
+/* INTRO */
+
+.page-portfolio {
+    background: url("../img/portfolio/bg-portfolio.jpg") no-repeat center;
+    background-size: cover;
+}
+
+
+/* QUOTE */
+
+.quote-clientes {
+    padding: 60px 0;
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quote-clientes p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.quote-clientes cite {
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+
+/* PORTFOLIO */
+
+.portfolio {
+    padding: 30px 0;
+}
