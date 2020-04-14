@@ -10,6 +10,10 @@ if (window.SimpleSlide) {
         slide: "portfolio",
         nav: true,
         auto: true,
-        time: 5000
+        time: 7000
     });
+}
+
+if (window.SimpleAnime) {
+    new SimpleAnime()
 }

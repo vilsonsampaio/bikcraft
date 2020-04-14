@@ -387,6 +387,9 @@ h3:after {
 
 /* o .js permite que os estilos só funcionem caso o javascript esteja habilitado no browser, garantindo mais uma vez acessibilidade*/
 
+
+/* Slide */
+
 .js [data-slide] {
     position: relative;
 }
@@ -426,4 +429,33 @@ h3:after {
 
 .js [data-slide-nav] button.active {
     background: #fec63e;
+}
+
+
+/* Anime */
+
+.js [data-anime] {
+    opacity: 0;
+}
+
+.js .fadeInDown {
+    transform: translate3d(0, -20px, 0);
+}
+
+.js .fadeInUp {
+    transform: translate3d(0, 20px, 0);
+}
+
+.js .fadeInRight {
+    transform: translate3d(20px, 0, 0);
+}
+
+.js .fadeInLeft {
+    transform: translate3d(-20px, 0, 0);
+}
+
+.js .anime {
+    opacity: 1;
+    transform: none;
+    transition: opacity 800ms, transform 800ms;
 }
