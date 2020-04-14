@@ -42,16 +42,20 @@
 
     <section class="contato">
         <div class="container">
-            <form data-anime="1200" action="" id="form-contato" class="grid-8 fadeInLeft">
+            <form method="POST" action="./php/enviar.php" id="form-contato" data-anime="1200" class="grid-8 fadeInLeft formphp">
                 <label for="nome">Nome</label>
-                <input type="text" id="nome">
+                <input type="text" id="nome" name="nome" required>
                 <label for="email">E-mail</label>
-                <input type="text" id="email">
+                <input type="email" id="email" name="email" required>
                 <label for="telefone">Telefone</label>
-                <input type="text" id="telefone">
+                <input type="text" id="telefone" name="telefone">
+                <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+                <input type="text" class="nao-aparece" name="leaveblank">
+                <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+                <input type="text" class="nao-aparece" name="dontchange" value="http://">
                 <label for="mensagem">Mensagem</label>
-                <textarea name="mensagem" id="mensagem"></textarea>
-                <button class="btn" type="submit">Enviar</button>
+                <textarea name="mensagem" id="mensagem" name="mensagem" required></textarea>
+                <button id="enviar" name="enviar" class="btn" type="submit">Enviar</button>
             </form>
             <div data-anime="1600" class="contato-dados grid-8 fadeInLeft">
                 <h3>Dados</h3>
@@ -137,6 +141,7 @@
 
     <!--JavaScript-->
     <script src="./js/simple-anime.js"></script>
+    <script src="./js/simple-form.js"></script>
     <script src="./js/scripts.js"></script>
     <!--JavaScript-->
 

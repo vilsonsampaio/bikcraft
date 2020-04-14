@@ -459,3 +459,20 @@ h3:after {
     transform: none;
     transition: opacity 800ms, transform 800ms;
 }
+
+
+/* PHP Formulário */
+
+.nao-aparece {
+    visibility: hidden;
+    height: 0px;
+    position: absolute;
+}
+
+#form-sucesso {
+    color: #31aa39;
+}
+
+#form-erro {
+    color: #f64540;
+}
