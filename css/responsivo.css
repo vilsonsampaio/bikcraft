@@ -1,0 +1,76 @@
+ /* Estilo para Tablet */
+ 
+ @media only screen and (min-width: 788px) and (max-width: 979px) {
+     /* Home - Qualidade */
+     .qualidade .container:after {
+         left: 68px;
+     }
+     .qualidade-lista li {
+         padding: 0;
+     }
+     /* Footer */
+     .footer-redes ul li {
+         margin-right: 6px;
+     }
+     .footer-redes ul li a {
+         padding: 6px;
+     }
+     .footer-redes ul li a img {
+         width: 25px;
+         height: 25px;
+     }
+ }
+ /* Estilo para Smartphone */
+ 
+ @media only screen and (max-width: 787px) {
+     /* Header */
+     .header {
+         position: relative;
+         /* tirando o menu fixo */
+         padding-bottom: 0px;
+     }
+     .header img {
+         margin: 5px auto 10px;
+         /* alinhando a marca ao centro */
+     }
+     .header-menu {
+         text-align: center;
+     }
+     .header-menu ul li {
+         margin: 5px;
+     }
+     .header-menu ul li a {
+         border: 4px solid #000;
+         width: 136px;
+         display: block;
+         float: left;
+     }
+     .header-menu ul li a:hover {
+         border-color: #fff;
+     }
+     /* Intro */
+     .intro {
+         margin-top: 0px;
+         padding: 40px 0;
+         background: url("../img/bg-mobile.jpg") no-repeat center;
+         background-size: cover;
+     }
+     .intro h1 {
+         font-size: 36px;
+     }
+     .quote-externo {
+         margin-bottom: 30px;
+     }
+     /* Call to action */
+     .call {
+         padding: 10px 0 40px;
+     }
+     /* Qualidade */
+     .qualidade .container:after {
+         display: none;
+     }
+     /* Footer */
+     .copyright .container p {
+         margin: 0;
+     }
+ }
