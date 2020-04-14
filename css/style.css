@@ -421,6 +421,7 @@ h3:after {
     text-indent: -99px;
     overflow: hidden;
     outline: none;
+    cursor: pointer;
 }
 
 .js [data-slide-nav] button.active {
