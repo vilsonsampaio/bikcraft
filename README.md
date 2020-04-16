@@ -4,7 +4,7 @@
 
 Site institucional responsivo desenvolvido durante o curso de **Web Design Completo** da [Origamid](https://www.origamid.com/curso/web-design-completo/), cuidando do layout e codificação.
 
-A Bikcraft é uma empresa fictícia de personalização de bicicletas, cujo objetivo é aumentar seu faturamento, divulgando os produtos para novos clientes em um website.
+A Bikcraft é uma empresa fictícia que trabalha com a personalização de bicicletas, cujo objetivo era o de aumentar seu faturamento por meio de um website, divulgando seus produtos para novos clientes.
 
 <img src="./.github/preview.png"/>
 
