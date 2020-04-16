@@ -17,12 +17,7 @@
     
     <link rel="shortcut icon" href="./img/favicon.ico">
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/contato.css">
-    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="./css/style.css">
     <script>
         document.documentElement.classList.add("js");
     </script>
@@ -67,7 +62,7 @@
                 <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
                 <input type="text" class="nao-aparece" name="dontchange" value="http://">
                 <label for="mensagem">Mensagem</label>
-                <textarea name="mensagem" id="mensagem" name="mensagem" required></textarea>
+                <textarea name="mensagem" id="mensagem" required></textarea>
                 <button id="enviar" name="enviar" class="btn" type="submit">Enviar</button>
             </form>
             <div data-anime="1600" class="contato-dados grid-8 fadeInLeft">
@@ -96,22 +91,22 @@
         </div>
     </section>
 
-    <section class="mapa">
+    <div class="mapa">
         <div class="container">
             <iframe class="grid-16" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7347.9483971315285!2d-43.187362978258506!3d-22.95117732000998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fe5efee9a25%3A0x3c77ca60168b5ea!2sBotafogo%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1586762987089!5m2!1spt-BR!2sbr"
-                width="969" height="280" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                width="969" height="280" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
 
-    </section>
+    </div>
 
-    <section class="quote-footer">
+    <div class="quote-footer">
         <div class="container">
             <blockquote class="quote-externo">
                 <p>"o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana"</p>
                 <cite>WILLIAM MORRIS</cite>
             </blockquote>
         </div>
-    </section>
+    </div>
 
     <footer>
         <section class="footer">
@@ -143,13 +138,12 @@
                     </ul>
                 </div>
             </div>
-            </div>
         </section>
-        <section class="copyright">
+        <div class="copyright">
             <div class="container">
                 <p class="grid-16">Bikcraft 2020 - Alguns direitos reservados</p>
             </div>
-        </section>
+        </div>
     </footer>
 
     <!--JavaScript-->
