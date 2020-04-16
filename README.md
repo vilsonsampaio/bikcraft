@@ -24,10 +24,19 @@ A Bikcraft é uma empresa fictícia de personalização de bicicletas, cujo obje
 
 
 ## Projeto final:
+[Clique aqui](https://bikcraft.com/) para acessar o projeto no ar!
 
+### Home
+![](./.github/home.png)
 
-<img src="./.github/home.png"/>
-<img src="./.github/sobre.png"/>
-<img src="./.github/produtos.png"/>
-<img src="./.github/portfolio.png"/>
-<img src="./.github/contato.png"/>
+### Sobre
+![](./.github/sobre.png)
+
+### Produtos
+![](./.github/produtos.png)
+
+### Portfólio
+![](./.github/portfolio.png)
+
+### Contato
+![](./.github/contato.png)
