@@ -22,6 +22,10 @@ A Bikcraft é uma empresa fictícia que trabalha com a personalização de bicic
 + Responsividade
 + Acessibilidade e SEO
 
+## TO DO
+- [ ] Implementar o sistema de blog com o CMS (Wordpress)
+- [ ] Aplicar os conhecimentos de Grid Display e Flex Box
+
 
 ## Projeto final:
 [Clique aqui](https://bikcraft.com/) para acessar o projeto no ar!
