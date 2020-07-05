@@ -3,10 +3,23 @@
 </h1>
 
 <p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/vilsonsampaio/bikcraft.svg?color=%23fec63e">
+   
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/top/vilsonsampaio/bikcraft.svg?color=%23fec63e">
+
+  <a href="https://github.com/vilsonsampaio/bikcraft/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vilsonsampaio/bikcraft.svg?color=%23fec63e">
+  </a>
+
+  <a href="https://github.com/vilsonsampaio/">
+    <img alt="Author" src="https://img.shields.io/badge/author-Vilson%20Sampaio-fec63e">
+  </a>
+</p>
+
+<p align="center">
   <a href="#-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-to-do">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto-final">Projeto final</a>
 </p>
 
