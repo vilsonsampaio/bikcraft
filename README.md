@@ -34,6 +34,7 @@
 
 A Bikcraft é uma empresa fictícia que trabalha com a personalização de bicicletas, cujo objetivo era o de aumentar seu faturamento por meio de um website, divulgando seus produtos para novos clientes.
 
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -43,15 +44,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) (animações e slides)
 - [PHPMailer](https://github.com/PHPMailer/PHPMailer) e [SendGrid](https://sendgrid.com/) (back-end para envio de formulários)
 
+
 ## 🔖 Layout
 
 O layout do site foi desenvolvido durante o curso de **Web Design Completo** da [Origamid](https://www.origamid.com/curso/web-design-completo/).
-
-
-## 📝 TO DO
-
-- [ ] Implementar o sistema de blog com o CMS (Wordpress)
-- [ ] Aplicar os conhecimentos de Grid Display e Flex Box
 
 
 ## 🌐 Projeto final
@@ -91,8 +87,9 @@ O layout do site foi desenvolvido durante o curso de **Web Design Completo** da 
 #### Contato
 ![](./.github/mobile_contato.png)
 
----
-<p align="center">
-Feito com ❤️ <a href="https://www.linkedin.com/in/vilsonsampaio/">Vilson Sampaio</a>
-</p>
 
+---
+
+<h4 align="center">
+  Feito com 💛 <a href="https://www.linkedin.com/in/vilsonsampaio/" target="_blank">Vilson Sampaio</a>
+</h4>
